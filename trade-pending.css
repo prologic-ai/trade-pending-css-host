@@ -1,0 +1,38 @@
+/* Hide the close button and the mileage and zip code input fields */
+button#close,
+div.mileage-banner,
+div.mileage-zip-form {
+  display: none;
+}
+/* Hide the print button */
+button.btn-print {
+  display: none;
+}
+
+/* Change primary color from Orange to something else */
+.btn.btn-primary {
+  background-color: #f16021;
+  border-color: #f16021;
+}
+.btn.btn-default {
+  border-color: #f16021;
+  color: #f16021;
+}
+h3.market-value {
+  color: #f16021;
+}
+p.no-value {
+  font-weight: bold;
+  color: #f16021;
+}
+/* Hide the navbar and header */
+div#top,
+div#nav {
+  display: none;
+}
+/* tighten up the spacing around the title */
+div.main > h2 {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
